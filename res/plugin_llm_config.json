@@ -1,0 +1,8 @@
+{
+  "name": "plugin-sample",
+  "description": "An OpenAI LLM provider for testing",
+  "priority": 10,
+  "api_key": "YOUR_OPENAI_API_KEY_HERE",
+  "model": "gpt-4o",
+  "endpoint": "https://api.openai.com/v1/chat/completions"
+}

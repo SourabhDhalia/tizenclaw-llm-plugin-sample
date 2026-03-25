@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="10.0" package="org.tizen.tizenclaw-llm-plugin-sample" version="1.0.0" res-type="tizenclaw.llm.plugin" res-version="1.0.0" lib="true">
+    <label>TizenClaw Sample Plugin</label>
+    <description>TizenClaw LLM Plugin Sample Description</description>
+    <metadata key="http://tizen.org/metadata/tizenclaw/llm-backend" value="libplugin-sample.so" />
+</manifest>

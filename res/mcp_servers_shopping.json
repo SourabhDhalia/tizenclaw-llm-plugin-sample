@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+        "swiggy-food": {
+            "command": "/usr/apps/org.tizen.tizenclaw-llm-plugin-sample/bin/mcp-http-bridge",
+            "args": [
+                "https://mcp.swiggy.com/food"
+            ],
+            "idle_timeout_seconds": 300
+        },
+        "swiggy-instamart": {
+            "command": "/usr/apps/org.tizen.tizenclaw-llm-plugin-sample/bin/mcp-http-bridge",
+            "args": [
+                "https://mcp.swiggy.com/im"
+            ],
+            "idle_timeout_seconds": 300
+        },
+        "swiggy-dineout": {
+            "command": "/usr/apps/org.tizen.tizenclaw-llm-plugin-sample/bin/mcp-http-bridge",
+            "args": [
+                "https://mcp.swiggy.com/dineout"
+            ],
+            "idle_timeout_seconds": 300
+        }
+    }
+}

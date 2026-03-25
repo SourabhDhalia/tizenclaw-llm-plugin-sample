@@ -1,0 +1,20 @@
+{
+    "trigger_rules": [
+        {
+            "name": "lunch_suggestion",
+            "event_type": "timer.scheduled",
+            "condition": {},
+            "cooldown_minutes": 1440,
+            "action": "direct",
+            "direct_prompt": "It's lunchtime! Based on the user's food preferences (use recall), suggest 2-3 lunch options from nearby restaurants on Swiggy Food. Include estimated delivery time and price. Send the suggestion to the user."
+        },
+        {
+            "name": "grocery_restock_reminder",
+            "event_type": "timer.scheduled",
+            "condition": {},
+            "cooldown_minutes": 10080,
+            "action": "direct",
+            "direct_prompt": "Weekly grocery check: Review the user's past grocery orders from memory (use recall for 'grocery' and 'instamart'). Suggest commonly ordered items that may need restocking — such as milk, eggs, bread, and other staples. Present a summary with estimated costs from Swiggy Instamart."
+        }
+    ]
+}
